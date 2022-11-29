@@ -13,12 +13,7 @@ function anagram(val1,val2){
    // console.log(val1)
     //console.log(val2)
         return val1 === val2
-    // Compare sorted strings
-    for (let i = 0; i < length1; i++)
-        if (val1[i] != val2[i])
-            return false;
-
-    return true;
+ 
 
 
 }
